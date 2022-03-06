@@ -1,4 +1,7 @@
-<img align="center" src="https://github.com/LiR4/API_clima/blob/main/images/3767036%20(1).png?raw=true" >
+
+<div align="center">
+  <img align="center" src="https://github.com/LiR4/API_clima/blob/main/images/3767036%20(1).png?raw=true" >
+</div>
 
 <h1 align="center"> API Clima </h1>
 
