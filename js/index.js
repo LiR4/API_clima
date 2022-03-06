@@ -18,7 +18,7 @@ function mostrar() {
 
   let url = `http://api.openweathermap.org/geo/1.0/direct?q=${cidade},${estado},${pais}&limit=1&appid=8f9ca3ad64f1d4f5dc5b6e4096309304`
 
-  fetch(url)//Aqui a API utiliza do nome da cidade, estado e país para obter dados latitude e longitude 
+  fetch(url) //Aqui a API utiliza do nome da cidade, estado e país para obter dados latitude e longitude 
     .then(prom => prom.json())
     .then(ll => {
       lon = ll[0]['lon']
