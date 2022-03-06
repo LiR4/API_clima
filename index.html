@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <title>Olha o clima aí</title>
+  </head>
+  <body>
+    <main>
+      <div class="space">
+        <div class="card text-white bg-dark">
+          <div class="card-body">
+            <label
+              >Cidade:
+              <input id="cidade" class="form-control" type="text" />
+            </label>
+            <label
+              >Estado:
+              <input
+                id="estado"
+                class="form-control"
+                type="text"
+                aria-label="readonly input example"
+              />
+            </label>
+            <label
+              >País:
+              <input
+                id="pais"
+                class="form-control"
+                type="text"
+                aria-label="readonly input example"
+              />
+            </label>
+            <button onclick="mostrar()" type="button" class="btn btn-secondary">
+              shazam
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="space">
+        <div class="card text-white bg-dark">
+          <div class="card-body" >
+            <output id="clima"></output>
+            <br>
+            <output id="tp"></output>
+            <br>
+            <output id="tp_max"></output>
+            <br>
+            <output id="tp_min"></output>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
